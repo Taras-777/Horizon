@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+</head>
+<body>
+<div class="container">
+    <p class="horizonLogo">Horizon</p>
+    <div class="leftBlock">
+        <div class="leftBlockContent">
+            <h1 class="mainText">Continue with your <br/>online diary</h1>
+            <a href="registration.html">
+                <button class="regButton" onclick="">Registration</button>
+            </a>
+        </div>
+    </div>
+    <div class="rightBlock">
+        <div class="rightBlockContent">
+            <p class="loginText">Login</p>
+            <div class="inputs">
+                <label>
+                    <input class='email' placeholder="Email">
+                </label>
+                <label>
+                    <input class='password' placeholder="Password">
+                </label>
+                <a href="home.html">
+                    <button class="loginButton" type="submit">Login</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.parent
+{
+	border: 1px solid black;
+	height: 100px;
+}
+.child
+{
+	height: 50px;
+	display: inline-block;
+	color: white;
+	width: 20%;
+}
+body {
+    background-color: #101015;
+}
+
+.header {
+    display: flex;
+}
+
+.header-logo {
+    width: 20%;
+}
+
+
+.header-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    align-items: flex-end;
+}
+
+.logo-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: white;
+}
+.logo{
+font-family: 'Inter', sans-serif;
+    	border: 1px solid black;
+	height: 20px;
+	float: left;
+	color: white;
+	width: 60%;
+	
+    
+}
+
+.user-button {
+    width: 35px;
+    height: 35px;
+    background-color: #1053FF;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.task-button {
+    font-family: 'Inter', sans-serif;
+    height: 35px;
+    width: 85px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #21212B;
+    color: white;
+    font-weight: 700;
+}
+
+.tasks-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-block {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.task-block-column {
+    background-color: #21212B;
+    width: 85%;
+    color: white;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.task-block-main-text {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 15px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.task-block-about-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.task-line {
+    width: 100%;
+    background-color: #1053FF;
+    height: 5px;
+    border-radius: 100px;
+}
